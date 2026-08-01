@@ -184,17 +184,3 @@ Sem conflito   Com conflito
 
 ---
 
-## Escopo da Sprint
-
-Esta implementação representa o MVP da API.
-
-Funcionalidades como:
-
-- edição de reservas;
-- cancelamento;
-- autenticação;
-- cadastro de salas;
-- notificações;
-- integração com calendário;
-
-ficam previstas para futuras sprints.
