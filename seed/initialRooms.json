@@ -1,0 +1,16 @@
+{
+  "salas": [
+    {
+      "id": 1,
+      "nome": "Sala Alpha",
+      "capacidade": 8,
+      "localizacao": "Andar 2"
+    },
+    {
+      "id": 2,
+      "nome": "Sala Beta",
+      "capacidade": 10,
+      "localizacao": "Andar 3"
+    }
+  ]
+}
