@@ -22,12 +22,13 @@ Antes de criar uma reserva, o sistema deve validar se já existe outra reserva p
 
 ### Exemplos
 
-| Reserva existente | Nova reserva | Resultado |
-|-------------------|--------------|-----------|
-| 09:00 - 10:00 | 10:00 - 11:00 | ✅ Permitida |
-| 09:00 - 10:00 | 09:30 - 10:30 | ❌ Conflito |
-| 09:00 - 10:00 | 08:30 - 09:30 | ❌ Conflito |
-| 09:00 - 10:00 | 08:00 - 09:00 | ✅ Permitida |
+ID da sala| Reserva existente | Nova reserva | Resultado |
+|-------------------|--------------|-----------|----------
+|1|2026-08-01 09:00 - 10:00 |2026-08-01 10:00 - 11:00 | ✅ Permitida |
+|2|2026-08-01 09:00 - 10:00 | 2026-08-0109:30 - 10:30 | ❌ Conflito |
+|2|2026-08-01 09:00 - 10:00 |2026-08-01 08:00 - 09:00 | ✅ Permitida |
+|1|2026-08-01 09:00 - 10:00 |2026-08-01 08:30 - 09:30 | ❌ Conflito |
+
 
 Considera-se que uma reserva pode iniciar exatamente no horário em que outra termina.
 
