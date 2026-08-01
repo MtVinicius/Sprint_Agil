@@ -15,12 +15,6 @@ Desenvolver uma API que permita:
 - Impedir que duas reservas sejam realizadas para a mesma sala no mesmo horário.
 
 ---
-## Stack Utilizada
-
-- **Node.js** — Ambiente de execução JavaScript.
-- **Express.js** — Framework para desenvolvimento da API REST.
-- **JavaScript (ES6+)** — Linguagem de programação.
-- **npm** — Gerenciador de dependências.
 
 ## Regra de Negócio
 
