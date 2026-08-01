@@ -125,13 +125,13 @@ Cria uma nova reserva.
 ## Estrutura do Projeto
 
 ```
+seed/
 src/
 ├── controllers/
-├── routes/
-├── services/
+├── docs/
 ├── models/
-├── middlewares/
-└── app.js
+├── routes/
+└── index.js
 ```
 
 ---
